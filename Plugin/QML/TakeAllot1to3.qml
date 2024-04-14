@@ -82,19 +82,21 @@ Item
             width: 603;
             height: 571;
 
-            BotController
-            {
-                id: rightBotController
-                source: "qrc:/Images/Bots/BlueBot3.png"
-                botSize: 30
-                z: 20
-            }
+
             TileController
             {
                 id: tileController;
                 xFinal : background.width - botStart.x + 25;
                 yFinal : 280;
             }
+        }
+        BotController
+        {
+            id: rightBotController
+            source: "qrc:/Images/Bots/BlueBot3.png"
+            botSize: 30
+            z: 20
+            x: botStart.x;
         }
 
     }

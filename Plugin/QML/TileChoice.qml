@@ -61,7 +61,7 @@ Item
         width: bronze.width
         anchors.bottom: bronze.bottom;
         color: "black"
-        opacity: 0.5;
+        opacity: 0.8;
     }
     Rectangle
     {
@@ -71,7 +71,7 @@ Item
         anchors.top: gold.top;
 
         color: "black"
-        opacity: 0.5;
+        opacity: 0.8;
     }
 
     function topShadow(y)

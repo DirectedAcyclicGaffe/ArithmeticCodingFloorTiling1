@@ -5,7 +5,7 @@
 RejectionSampingTilerAttributes::RejectionSampingTilerAttributes()
 {
     m_listName = "Rejection Sampling";
-    m_displayName = "1 Gold to 3 Bronze\n Simple Method";
+    m_displayName = "1 Gold to 3 Bronze\n Rejection Sampling";
     m_iconPath = "qrc:/Icons/Rejection1to3.png";
 
     m_dataTypesIn.push_back(Magic<CoinArrayDataTypeAttributes>::cast().id());

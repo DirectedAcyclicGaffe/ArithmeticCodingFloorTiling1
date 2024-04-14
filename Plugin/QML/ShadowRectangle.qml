@@ -12,7 +12,7 @@ Rectangle
         running: true
         target: root
         property: "opacity"
-        to: 0.5;
+        to: 0.4;
         duration: 0.8 * idea.speed
     }
 }

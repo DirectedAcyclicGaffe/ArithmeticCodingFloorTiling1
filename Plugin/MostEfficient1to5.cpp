@@ -5,7 +5,7 @@
 MostEfficient1to5Attributes::MostEfficient1to5Attributes()
 {
     m_listName = "Most Efficient 1 to 5";
-    m_displayName = "1 Gold to 5 Bronze\nMost Efficient";
+    m_displayName = "1 Gold to 5 Bronze\nArithmetic Decoder";
     m_iconPath = "qrc:/Icons/MostEfficient1to5.png";
 
     m_dataTypesIn.push_back(Magic<CoinArrayDataTypeAttributes>::cast().id());
